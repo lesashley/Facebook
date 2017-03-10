@@ -9,22 +9,23 @@
   <body>
     <form action="" Align = center>
       <h1>Spec - Muro</h1>
-      <div class="" id="nombre">
-      </div>
-      <div class="">
-        <textarea name="name" rows="4" cols="40" placeholder="¿Qué está pasando?" id="texto"></textarea><br>
-        <select class="" name="" id="privacidad">
-          <option value="0">Amigos</option>
-          <option value="1">Público</option>
-        </select>
-        <button type="button" name="button" id="enviar">Publicar</button>
-        <br></br>
-      <div>
-        <button type="button" name="button">Público</button>
-        <button type="button" name="button">Amigos</button>
-      </div>
-      </div>
-      <section id="mostrar">
+      <div class="" id="nombre"></div>
+        <div class="">
+          <fieldset>
+            <textarea name="name" rows="4" cols="40" placeholder="¿Qué está pasando?" id="texto"></textarea><br>
+            <select class="" name="" id="privacidad">
+              <option value="0">Amigos</option>
+              <option value="1">Público</option>
+            </select>
+            <button type="button" name="button" id="enviar">Publicar</button>
+          </fieldset>
+          <br><br>
+          <div>
+            <!--<button type="button" name="button">Público</button>
+            <button type="button" name="button">Amigos</button>-->
+          </div>
+        </div>
+      <section id="resultado">
       </section>
     </form>
     <script type="text/javascript" src = "assets/js/muro.js">
