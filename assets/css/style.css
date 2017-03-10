@@ -4,3 +4,11 @@
 #v2{
 	display : none;
 }
+
+#f {
+color:#00f;
+background-color:#ddd;
+max-width:300px;
+padding:20px;
+text-align: center;
+}
