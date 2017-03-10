@@ -2,12 +2,11 @@
 function Datos() {
   this.estado=[];
   this.agregar = function(estado) {
-    this.estado.push(estado);
-  };
+    this.estado.push(estado);};
   this.privacidad=[];
   this.show = function(){
     this.estado.forEach(function(estado) {
-      estado.mostrar();
+      estado.show();
     },this);
   }
 }
@@ -18,6 +17,6 @@ botonPublicar.addEventListener("click", function(e){
     var show = document.getElementById("mostrar");
     show.innerHTML = "<div class='publicacion'><p>" + texto +"</p></div>";
     data.agregar(texto);
-    //datos.estado.push(texto);
+    //data.show();
     e.preventDefault();
 })
