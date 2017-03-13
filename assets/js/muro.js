@@ -24,7 +24,7 @@ botonPublicar.addEventListener("click", function(e){
     var selected = document.getElementById('privacidad').selectedIndex;
     var privacidad = document.getElementById('privacidad').options[selected].text;
     data.agregarPrivacidad(privacidad);
-    //alert("kjhkjh");
+    alert(privacidad);
 });
 
 var bPublico = document.getElementById('publico');
