@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Inicio</title>
+    <title>Muro</title>
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body style="background-color:#4267b2;">
+  <body>
     <form action="" Align = center>
-      <font FACE = "tahoma" color ="white">
-      <h1>Login Facebook</h1>
-      <div>
-        <label for="">Usuario:</label><br>
-        <input type="email" name="" id="usuario"><br>
-        <div id="v1" style="font-size:15px"><font size=2 color="red">Usuario no puede estar en blanco</font></div>
-      </div>
-      <div>
-        <br>
-        <label for="">Password:</label><br>
-        <input type="password" name="" id="contrasena"><br>
-        <div id="v2"><font size=2 color="red">Contraseña no puede estar en blanco</font></div>
-      </div>
-      <div class="">
-        <br>
-          <button type="button" name="button" id="enviar">Login</button>
-
-      </div>
-      </font>
+      <nav></nav>
+      <h1>Spec - Muro</h1>
+      <div class="" id="nombre"></div>
+        <div class="" align=center>
+          <fieldset id="f">
+            <textarea name="name" rows="4" cols="40" placeholder="¿Qué está pasando?" id="texto"></textarea><br>
+            <select class="" name="" id="privacidad">
+              <option value="0">Amigos</option>
+              <option value="1">Público</option>
+            </select>
+            <button type="button" name="button" id="enviar">Publicar</button>
+          </fieldset>
+          <br><br>
+          <div>
+            <button type="button" name="button" id="publico">Público</button>
+            <button type="button" name="button" id="amigos">Amigos</button>
+          </div>
+        </div>
+      <section id="resultado">
+      </section>
     </form>
-    <script type="text/javascript" src="assets/js/app.js">
+    <script type="text/javascript" src = "assets/js/muro.js">
+
     </script>
   </body>
 </html>
